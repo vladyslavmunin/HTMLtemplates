@@ -1,0 +1,43 @@
+
+
+
+.html,body{
+    margin: 0 auto;
+    text-align: center;
+       
+}
+
+#header{
+    background: aqua;
+    font-size: 40px;
+}
+#footer{
+    background:gray;
+     font-size: 40px;
+     clear: both;
+
+}
+#wrapper{
+
+    float: left;
+   overflow: hidden;
+         margin: 0 200px 0 0;  
+}
+#navigation{
+
+background: blue;
+overflow: hidden;
+margin: 0 80% 0 0;
+ 
+}   
+#content{
+       background: orange;
+      float: right; 
+      width: 80%;
+}
+#sidebar{
+     width: 200px;  
+   background: red;
+ float: left;
+    margin: 0 0 0 -200px;  
+}

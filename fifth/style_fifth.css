@@ -1,0 +1,36 @@
+.html,body{
+    margin: 0 auto;
+    text-align: center;
+       
+}
+
+#header{
+    background: aqua;
+ font-size: 40px;
+}
+#footer{
+    background:gray;
+     font-size: 40px;
+     clear: both;
+
+}
+#wrapper{
+float: left;
+width: 100%;
+}
+#first{
+background: blue;
+margin: 0 0 0 -100%;
+width:25%;
+float: left;
+}
+#second{
+background: orange;
+margin: 0 25%;
+overflow: hidden;
+}
+#third{
+background: deeppink;
+width:25%;margin: 0 0 0 -25%;
+float: left;
+}

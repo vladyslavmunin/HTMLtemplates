@@ -1,0 +1,46 @@
+.html,body{
+    margin: 0 auto;
+    text-align: center;
+       
+}
+
+#header{
+    background: aqua;
+    font-size: 40px;
+}
+#footer{
+    background:gray;
+     font-size: 40px;
+     clear: both;
+
+}
+#wrapper{
+   overflow: hidden;
+
+}
+#navigation{
+    width: 50%;
+    background: blue;
+    float: left;
+
+}   
+#content{
+       background: orange;
+      width: 500px;
+   margin: 0 0 0 -250px;
+float: left;
+overflow: hidden;
+
+}   
+#sidebar{
+    background: red;
+    width: 50%;
+    float: right;
+        margin: 0 0 0 -250px;
+}
+#sidebar-w{
+    margin: 0 0 0 250px;
+}
+#navigation-w{
+    margin: 0 250px 0 0;
+}

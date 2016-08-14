@@ -1,0 +1,31 @@
+.html,body{
+    margin: 0 auto;
+    text-align: center;
+       
+}
+
+#header{
+    background: aqua;
+ font-size: 40px;
+}
+#footer{
+    background:gray;
+     font-size: 40px;
+     clear: both;
+
+}
+#first,#second,#third{
+float: left;
+width: 33%;
+font-size: 20px;
+}
+#first{
+background: blue;
+}
+#second{
+background: orange;
+width: 34%;
+}
+#third{
+background: deeppink;
+}
